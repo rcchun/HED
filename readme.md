@@ -24,7 +24,11 @@ torchtext==0.2.3
 
 학습 데이터 
 
-segmentation 하고자 하는 object를 data 디렉토리를 만들어 그 아래에  train, val, test로 데이터셋 구성하도록 train, val, test 디렉토리를 생성
+segmentation 하고자 하는 object를 data 디렉토리를 만들어 
+
+그 아래에  train, val, test로 데이터셋 구성하도록 train, val, test 디렉토리를 생성
+
+아래에 Directory configuration 참조
 
 Requirements.txt 설치
 ```
@@ -82,17 +86,7 @@ path 설정 및 에폭 설정 후 실행
    ├── output
        └── pred
    └── data
-       ├── crack
-           ├── train
-                ├── croppedimg
-                └── croppedgt
-           ├── val
-                ├── croppedimg
-                └── croppedgt
-           └── test
-                ├── croppedimg
-                └── croppedgt
-       └── pot
+       ├── object
            ├── train
                 ├── croppedimg
                 └── croppedgt
