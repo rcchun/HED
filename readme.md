@@ -7,10 +7,7 @@ Please leave your questions at donghoon.rhie@gmail.com I'll spend as much time a
 ## Data
 
 * data 디렉토리 아래 
-  * crack 디렉토리와 pot 디렉토리에 train, val, test로 데이터셋 구성
-
-* 256 x 256 단위 패치
-* 크랙이 없는 부분은 제거
+  * segmentation하고자 하는 object 디렉토리에 train, val, test로 데이터셋 구성
 
 ## Requirements
 ```
@@ -33,28 +30,11 @@ torchtext==0.2.3
 
 학습 데이터 
 
-공유한 구글 드라이브 링크에서 data-MUHAN.zip 다운로드
-
-코드 다운로드
-
-```
-git clone https://github.com/glee1228/segmentation
-```
+segmentation 하고자 하는 object를 data 디렉토리를 만들어 그 아래에  train, val, test로 데이터셋 구성하도록 train, val, test 디렉토리를 생성
 
 Requirements.txt 설치
 ```
 pip3 install -r requirements.txt
-```
-
-
-학습 데이터 위치 설정
-
-```
-$ mkdir data; cd data
-$ mv 원래 data-MUHAN.zip경로 .
-$ unzip data-MUHAN.zip
-$ rm data-MUHAN.zip
-$ cd ..
 ```
 
 학습 초기화를 위해 pretrained VGG16 모델 다운로드
