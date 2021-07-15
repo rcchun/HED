@@ -1,9 +1,3 @@
-## Pavement Crack Segmentation
-
-Created by glee1228@naver.com
-
-Please leave your questions at donghoon.rhie@gmail.com I'll spend as much time as I can to give you a friendly answer.
-
 ## Data
 
 * data 디렉토리 아래 
